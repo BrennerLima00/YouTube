@@ -92,12 +92,12 @@ confronto_goals_mean = df_confrontos["FT_Goals_H"].mean()
 
 
 # Imprimindo resultados
-print(f"Média de escanteios dos últimos 5 jogos do Time 1 como mandante: {home_corners_mean}")
-print(f"Média de escanteios dos últimos 5 jogos do Time 2 como visitante: {away_corners_mean}")
-print(f"Média de escanteios dos últimos 5 confrontos entre Time 1 e Time 2: {confronto_corners_mean}")
-print(f"Média de gols dos últimos 5 jogos do Time 1 como mandante: {home_goals_mean}")
-print(f"Média de gols dos últimos 5 jogos do Time 2 como visitante: {away_goals_mean}")
-print(f"Média de gols dos últimos 5 confrontos entre Time 1 e Time 2: {confronto_goals_mean}")
+st.print(f"Média de escanteios dos últimos 5 jogos do Time 1 como mandante: {home_corners_mean}")
+st.print(f"Média de escanteios dos últimos 5 jogos do Time 2 como visitante: {away_corners_mean}")
+st.print(f"Média de escanteios dos últimos 5 confrontos entre Time 1 e Time 2: {confronto_corners_mean}")
+st.print(f"Média de gols dos últimos 5 jogos do Time 1 como mandante: {home_goals_mean}")
+st.print(f"Média de gols dos últimos 5 jogos do Time 2 como visitante: {away_goals_mean}")
+st.print(f"Média de gols dos últimos 5 confrontos entre Time 1 e Time 2: {confronto_goals_mean}")
 
 
 
